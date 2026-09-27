@@ -35,6 +35,7 @@ Free is frozen at what it has now: bug fixes, not new features.
 
 | | Free | Pro |
 |---|:---:|:---:|
+| Hi-res: 24-bit and high sample rates, tested to 88.2 kHz | ✅ | ✅ |
 | Bit-perfect through a USB DAC on the top port | ✅ | ✅ |
 | FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
 | BIT-PERFECT / CONVERTED read from the sound card | ✅ | ✅ |
@@ -48,13 +49,11 @@ Free is frozen at what it has now: bug fixes, not new features.
 | Favourites, an editable queue, per-track resume | ❌ | ✅ |
 | Gapless, EQ | ❌ | ✅ |
 | Telegram sync | ❌ | ✅ |
-| Hot-switching a USB DAC on the bottom port | ❌ | ✅ |
+| Use the bottom USB port for a DAC | ❌ | ✅ |
+| Updates over the air | ❌ | ✅ |
 | A choice of screen layouts, more LED modes | ❌ | ✅ |
 | Sleep timer | ❌ | ✅ |
 | Vietnamese interface | ❌ | ✅ |
-
-Pro will never gate output quality. There is no quality ceiling in Free and
-there will not be one.
 
 ## Buttons
 

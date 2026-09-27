@@ -53,6 +53,7 @@ Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tí
 
 | | Free | Pro |
 |---|:---:|:---:|
+| Hi-res: 24-bit và sample rate cao, đã test tới 88.2 kHz | ✅ | ✅ |
 | Bit-perfect qua USB DAC cổng trên | ✅ | ✅ |
 | FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
 | Nhãn BIT-PERFECT / CONVERTED đọc từ sound card | ✅ | ✅ |
@@ -66,20 +67,17 @@ Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tí
 | Yêu thích, hàng đợi sửa được, nhớ vị trí từng bài | ❌ | ✅ |
 | Gapless, EQ | ❌ | ✅ |
 | Đồng bộ Telegram | ❌ | ✅ |
-| Đổi nóng USB DAC ở cổng dưới | ❌ | ✅ |
+| Dùng cổng USB dưới làm DAC | ❌ | ✅ |
+| Cập nhật qua mạng (OTA) | ❌ | ✅ |
 | Nhiều layout màn hình, nhiều chế độ LED | ❌ | ✅ |
 | Hẹn giờ tắt | ❌ | ✅ |
 | Giao diện tiếng Việt | ❌ | ✅ |
-
-Pro sẽ không khoá chất lượng đầu ra. Bản Free không có trần chất lượng và sẽ
-không bao giờ có.
 
 ## Báo lỗi
 
 Mở issue, ghi firmware, phiên bản, và đính kèm `truepod.log` trong thư mục app
 trên thẻ. Mấy dòng đầu của nó nói firmware của bạn có sẵn những gì, thường chỉ
 cần vậy là đủ giải thích vì sao hai máy chạy khác nhau.
-
 
 ---
 
