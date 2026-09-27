@@ -6,7 +6,7 @@ GitHub release itself; this is the short record.
 ## 0.1.0 — 2026-09-27
 
 First public build. Free edition, for spruceOS and stock TrimUI firmware.
-Full notes: **[RELEASE.md](RELEASE.md)**.
+Chi tiết: **[RELEASE.md](RELEASE.md)** ([English](RELEASE.en.md)).
 
 **Added**
 - Bit-perfect playback through a USB DAC on the top port, at the file's own rate
