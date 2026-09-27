@@ -30,18 +30,31 @@ Same player in both. They differ only in which directory the firmware looks in.
 
 ## Features
 
-- Bit-perfect output through a USB DAC on the top port, tested to
-  88.2 kHz / 24-bit.
-- FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC.
-- The browser shows each track's real sample rate and bit depth before you play
-  it, with embedded cover art. It remembers the folder you were last in.
-- Wi-Fi upload from a QR code, so you can add music without taking the card out.
-- A spectrum display on screen, and the RGB LEDs flash to the beat. Both can be
-  switched off in Options.
-- Screen off with the music still playing.
-- Shuffle and repeat all / one / off.
-- Delete a track from the browser, with a confirmation.
-- Runs on spruceOS and on stock TrimUI firmware.
+✅ in Free, ❌ means it is planned for **Truepod Pro**, which is not released yet.
+Free is frozen at what it has now: bug fixes, not new features.
+
+| | Free | Pro |
+|---|:---:|:---:|
+| Bit-perfect through a USB DAC on the top port | ✅ | ✅ |
+| FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
+| BIT-PERFECT / CONVERTED read from the sound card | ✅ | ✅ |
+| Folder browsing with each track's real rate and bit depth, cover art, delete | ✅ | ✅ |
+| Shuffle, repeat all / one / off | ✅ | ✅ |
+| Wi-Fi upload from a QR code | ✅ | ✅ |
+| Spectrum display, LEDs flashing to the beat | ✅ | ✅ |
+| Screen off with the music still playing | ✅ | ✅ |
+| spruceOS and stock TrimUI firmware | ✅ | ✅ |
+| Browse by artist and album, search, saved `.m3u` playlists | ❌ | ✅ |
+| Favourites, an editable queue, per-track resume | ❌ | ✅ |
+| Gapless, EQ | ❌ | ✅ |
+| Telegram sync | ❌ | ✅ |
+| Hot-switching a USB DAC on the bottom port | ❌ | ✅ |
+| A choice of screen layouts, more LED modes | ❌ | ✅ |
+| Sleep timer | ❌ | ✅ |
+| Vietnamese interface | ❌ | ✅ |
+
+Pro will never gate output quality. There is no quality ceiling in Free and
+there will not be one.
 
 ## Buttons
 
@@ -81,22 +94,6 @@ same track plays bit-perfect.
   track.
 - No gapless playback.
 - Tested to 88.2 kHz. Higher rates are untested rather than known bad.
-
-## Free and Pro
-
-Free is frozen at the feature set it has now: bug fixes, not new features.
-**Truepod Pro** is planned and not released. It adds a tag index for browsing by
-artist and album, search, saved playlists, favourites, an editable queue,
-per-track resume, a sleep timer, gapless, EQ, Telegram sync, hot-switching a USB
-DAC on the bottom port, a choice of screen layouts, more LED modes, and a
-Vietnamese interface.
-
-Feature by feature:
-**[Free and Pro](https://github.com/duyquang6/truepod/blob/main/README.md#free-and-pro)**
-· **[tiếng Việt](https://github.com/duyquang6/truepod/blob/main/README.vi.md#free-v%C3%A0-pro)**
-
-Pro will never gate output quality. There is no quality ceiling in Free and
-there will not be one.
 
 ## Something broken?
 

@@ -46,46 +46,33 @@ analog phải** tắt màn hình mà nhạc vẫn chạy, và hai nút cạnh m�
 Muốn thêm nhạc mà không có đầu đọc thẻ: bấm **Y** trong danh sách nhạc rồi quét
 mã QR bằng điện thoại cùng mạng.
 
-## Free và Pro
+## Tính năng
 
-Bản Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tính năng.
-**Truepod Pro** đang lên kế hoạch và chưa phát hành — chưa có gì dưới đây được
-bán.
+✅ là có trong Free, ❌ là dự kiến cho bản **Truepod Pro**, chưa phát hành. Bản
+Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tính năng.
 
 | | Free | Pro |
 |---|:---:|:---:|
-| **Phát nhạc** | | |
 | Bit-perfect qua USB DAC cổng trên | ✅ | ✅ |
 | FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
 | Nhãn BIT-PERFECT / CONVERTED đọc từ sound card | ✅ | ✅ |
+| Duyệt theo thư mục, hiện rate và bit depth thật, cover art, xoá bài | ✅ | ✅ |
 | Shuffle, repeat all / one / off | ✅ | ✅ |
-| Gapless | ❌ | ✅ |
-| EQ | ❌ | ✅ |
-| Đổi nóng USB DAC ở cổng dưới | ❌ | ✅ |
-| **Thư viện** | | |
-| Duyệt theo thư mục, hiện sample rate và bit depth thật của từng bài | ✅ | ✅ |
-| Cover art nhúng trong file | ✅ | ✅ |
-| Xoá bài, nhớ thư mục lần trước | ✅ | ✅ |
-| Duyệt theo nghệ sĩ và album (index tag) | ❌ | ✅ |
-| Tìm kiếm | ❌ | ✅ |
-| Playlist lưu được dạng `.m3u` | ❌ | ✅ |
-| Yêu thích | ❌ | ✅ |
-| Hàng đợi sửa được | ❌ | ✅ |
-| Nhớ vị trí từng bài | ❌ | ✅ |
-| **Đưa nhạc vào máy** | | |
 | Upload qua Wi-Fi bằng QR code | ✅ | ✅ |
-| Đồng bộ Telegram | ❌ | ✅ |
-| **Màn hình và thiết bị** | | |
 | Hiển thị phổ nhạc, LED nháy theo nhịp | ✅ | ✅ |
 | Tắt màn hình mà nhạc vẫn chạy | ✅ | ✅ |
-| Chạy trên spruceOS và firmware TrimUI gốc | ✅ | ✅ |
-| Nhiều layout màn hình để chọn | ❌ | ✅ |
-| Nhiều chế độ LED | ❌ | ✅ |
+| spruceOS và firmware TrimUI gốc | ✅ | ✅ |
+| Duyệt theo nghệ sĩ và album, tìm kiếm, playlist `.m3u` | ❌ | ✅ |
+| Yêu thích, hàng đợi sửa được, nhớ vị trí từng bài | ❌ | ✅ |
+| Gapless, EQ | ❌ | ✅ |
+| Đồng bộ Telegram | ❌ | ✅ |
+| Đổi nóng USB DAC ở cổng dưới | ❌ | ✅ |
+| Nhiều layout màn hình, nhiều chế độ LED | ❌ | ✅ |
 | Hẹn giờ tắt | ❌ | ✅ |
 | Giao diện tiếng Việt | ❌ | ✅ |
 
 Pro sẽ không khoá chất lượng đầu ra. Bản Free không có trần chất lượng và sẽ
-không bao giờ có — đó chính là lý do trình phát này tồn tại.
+không bao giờ có.
 
 ## Báo lỗi
 

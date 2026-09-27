@@ -47,45 +47,33 @@ buttons are volume.
 To add music without a card reader, press **Y** in the library and scan the QR
 code from a phone on the same network.
 
-## Free and Pro
+## Features
 
-Free is frozen at the feature set it has now: bug fixes, not new features.
-**Truepod Pro** is planned and not released — nothing below is on sale yet.
+✅ in Free, ❌ means it is planned for **Truepod Pro**, which is not released yet.
+Free is frozen at what it has now: bug fixes, not new features.
 
 | | Free | Pro |
 |---|:---:|:---:|
-| **Playback** | | |
 | Bit-perfect through a USB DAC on the top port | ✅ | ✅ |
 | FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
 | BIT-PERFECT / CONVERTED read from the sound card | ✅ | ✅ |
+| Folder browsing with each track's real rate and bit depth, cover art, delete | ✅ | ✅ |
 | Shuffle, repeat all / one / off | ✅ | ✅ |
-| Gapless | ❌ | ✅ |
-| EQ | ❌ | ✅ |
-| Hot-switching a USB DAC on the bottom port | ❌ | ✅ |
-| **Library** | | |
-| Folder browsing, with the real rate and bit depth of each track | ✅ | ✅ |
-| Embedded cover art | ✅ | ✅ |
-| Delete a track, remember the last folder | ✅ | ✅ |
-| Browse by artist and album (tag index) | ❌ | ✅ |
-| Search | ❌ | ✅ |
-| Saved playlists as `.m3u` | ❌ | ✅ |
-| Favourites | ❌ | ✅ |
-| An editable queue | ❌ | ✅ |
-| Per-track resume | ❌ | ✅ |
-| **Getting music on** | | |
 | Wi-Fi upload from a QR code | ✅ | ✅ |
-| Telegram sync | ❌ | ✅ |
-| **Screen and device** | | |
 | Spectrum display, LEDs flashing to the beat | ✅ | ✅ |
 | Screen off with the music still playing | ✅ | ✅ |
-| Runs on spruceOS and stock TrimUI firmware | ✅ | ✅ |
-| A choice of screen layouts | ❌ | ✅ |
-| More LED modes | ❌ | ✅ |
+| spruceOS and stock TrimUI firmware | ✅ | ✅ |
+| Browse by artist and album, search, saved `.m3u` playlists | ❌ | ✅ |
+| Favourites, an editable queue, per-track resume | ❌ | ✅ |
+| Gapless, EQ | ❌ | ✅ |
+| Telegram sync | ❌ | ✅ |
+| Hot-switching a USB DAC on the bottom port | ❌ | ✅ |
+| A choice of screen layouts, more LED modes | ❌ | ✅ |
 | Sleep timer | ❌ | ✅ |
 | Vietnamese interface | ❌ | ✅ |
 
 Pro will never gate output quality. There is no quality ceiling in Free and
-there will not be one; that is the whole reason this player exists.
+there will not be one.
 
 ## Reporting a problem
 
