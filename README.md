@@ -47,14 +47,42 @@ buttons are volume.
 To add music without a card reader, press **Y** in the library and scan the QR
 code from a phone on the same network.
 
-## Later
+## Free and Pro
 
-Free keeps the feature set it has now: bug fixes, not new features.
+Free is frozen at the feature set it has now: bug fixes, not new features.
+**Truepod Pro** is planned and not released — nothing below is on sale yet.
 
-A **Truepod Pro** edition is planned, not released. Sleep timer, favourites,
-per-track resume, an editable queue, gapless, a tag index with artist/album
-browsing and search, saved playlists, Telegram sync, EQ, hot-switching a USB DAC
-on the bottom port, a choice of screen layouts, and more LED modes.
+| | Free | Pro |
+|---|:---:|:---:|
+| **Playback** | | |
+| Bit-perfect through a USB DAC on the top port | ✅ | ✅ |
+| FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
+| BIT-PERFECT / CONVERTED read from the sound card | ✅ | ✅ |
+| Shuffle, repeat all / one / off | ✅ | ✅ |
+| Gapless | ❌ | ✅ |
+| EQ | ❌ | ✅ |
+| Hot-switching a USB DAC on the bottom port | ❌ | ✅ |
+| **Library** | | |
+| Folder browsing, with the real rate and bit depth of each track | ✅ | ✅ |
+| Embedded cover art | ✅ | ✅ |
+| Delete a track, remember the last folder | ✅ | ✅ |
+| Browse by artist and album (tag index) | ❌ | ✅ |
+| Search | ❌ | ✅ |
+| Saved playlists as `.m3u` | ❌ | ✅ |
+| Favourites | ❌ | ✅ |
+| An editable queue | ❌ | ✅ |
+| Per-track resume | ❌ | ✅ |
+| **Getting music on** | | |
+| Wi-Fi upload from a QR code | ✅ | ✅ |
+| Telegram sync | ❌ | ✅ |
+| **Screen and device** | | |
+| Spectrum display, LEDs flashing to the beat | ✅ | ✅ |
+| Screen off with the music still playing | ✅ | ✅ |
+| Runs on spruceOS and stock TrimUI firmware | ✅ | ✅ |
+| A choice of screen layouts | ❌ | ✅ |
+| More LED modes | ❌ | ✅ |
+| Sleep timer | ❌ | ✅ |
+| Vietnamese interface | ❌ | ✅ |
 
 Pro will never gate output quality. There is no quality ceiling in Free and
 there will not be one; that is the whole reason this player exists.

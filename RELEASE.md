@@ -82,15 +82,21 @@ same track plays bit-perfect.
 - No gapless playback.
 - Tested to 88.2 kHz. Higher rates are untested rather than known bad.
 
-## Later
+## Free and Pro
 
-Free keeps the feature set it has now. Bug fixes, not new features.
+Free is frozen at the feature set it has now: bug fixes, not new features.
+**Truepod Pro** is planned and not released. It adds a tag index for browsing by
+artist and album, search, saved playlists, favourites, an editable queue,
+per-track resume, a sleep timer, gapless, EQ, Telegram sync, hot-switching a USB
+DAC on the bottom port, a choice of screen layouts, more LED modes, and a
+Vietnamese interface.
 
-Truepod Pro, planned and not released: sleep timer, favourites, per-track resume,
-an editable queue, gapless, a tag index for browsing by artist and album, search,
-saved playlists, Telegram sync, EQ, hot-switching a USB DAC on the bottom port,
-a choice of screen layouts, and more LED modes. Pro will not gate output
-quality.
+Feature by feature:
+**[Free and Pro](https://github.com/duyquang6/truepod/blob/main/README.md#free-and-pro)**
+· **[tiếng Việt](https://github.com/duyquang6/truepod/blob/main/README.vi.md#free-v%C3%A0-pro)**
+
+Pro will never gate output quality. There is no quality ceiling in Free and
+there will not be one.
 
 ## Something broken?
 

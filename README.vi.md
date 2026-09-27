@@ -46,14 +46,43 @@ analog phải** tắt màn hình mà nhạc vẫn chạy, và hai nút cạnh m�
 Muốn thêm nhạc mà không có đầu đọc thẻ: bấm **Y** trong danh sách nhạc rồi quét
 mã QR bằng điện thoại cùng mạng.
 
-## Sắp tới
+## Free và Pro
 
-Bản Free giữ nguyên tập tính năng hiện tại. Sửa lỗi, không thêm tính năng.
+Bản Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tính năng.
+**Truepod Pro** đang lên kế hoạch và chưa phát hành — chưa có gì dưới đây được
+bán.
 
-Bản **Truepod Pro** đang lên kế hoạch, chưa phát hành: hẹn giờ tắt, yêu thích,
-nhớ vị trí từng bài, hàng đợi sửa được, gapless, index theo tag để duyệt theo
-nghệ sĩ/album và tìm kiếm, playlist lưu được, đồng bộ Telegram, EQ, đổi nóng USB
-DAC ở cổng dưới, nhiều layout màn hình để chọn, và thêm nhiều chế độ LED.
+| | Free | Pro |
+|---|:---:|:---:|
+| **Phát nhạc** | | |
+| Bit-perfect qua USB DAC cổng trên | ✅ | ✅ |
+| FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
+| Nhãn BIT-PERFECT / CONVERTED đọc từ sound card | ✅ | ✅ |
+| Shuffle, repeat all / one / off | ✅ | ✅ |
+| Gapless | ❌ | ✅ |
+| EQ | ❌ | ✅ |
+| Đổi nóng USB DAC ở cổng dưới | ❌ | ✅ |
+| **Thư viện** | | |
+| Duyệt theo thư mục, hiện sample rate và bit depth thật của từng bài | ✅ | ✅ |
+| Cover art nhúng trong file | ✅ | ✅ |
+| Xoá bài, nhớ thư mục lần trước | ✅ | ✅ |
+| Duyệt theo nghệ sĩ và album (index tag) | ❌ | ✅ |
+| Tìm kiếm | ❌ | ✅ |
+| Playlist lưu được dạng `.m3u` | ❌ | ✅ |
+| Yêu thích | ❌ | ✅ |
+| Hàng đợi sửa được | ❌ | ✅ |
+| Nhớ vị trí từng bài | ❌ | ✅ |
+| **Đưa nhạc vào máy** | | |
+| Upload qua Wi-Fi bằng QR code | ✅ | ✅ |
+| Đồng bộ Telegram | ❌ | ✅ |
+| **Màn hình và thiết bị** | | |
+| Hiển thị phổ nhạc, LED nháy theo nhịp | ✅ | ✅ |
+| Tắt màn hình mà nhạc vẫn chạy | ✅ | ✅ |
+| Chạy trên spruceOS và firmware TrimUI gốc | ✅ | ✅ |
+| Nhiều layout màn hình để chọn | ❌ | ✅ |
+| Nhiều chế độ LED | ❌ | ✅ |
+| Hẹn giờ tắt | ❌ | ✅ |
+| Giao diện tiếng Việt | ❌ | ✅ |
 
 Pro sẽ không khoá chất lượng đầu ra. Bản Free không có trần chất lượng và sẽ
 không bao giờ có — đó chính là lý do trình phát này tồn tại.
