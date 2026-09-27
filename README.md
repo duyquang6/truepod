@@ -4,9 +4,9 @@ A bit-perfect music player for the **TrimUI Brick Pro**.
 
 *[Tiếng Việt](README.vi.md)*
 
-Every other player on this handheld caps its output at compile time. Truepod
-plays the file you actually have — and when the hardware cannot, it says so
-instead of pretending.
+Every other player on this handheld fixes its output quality at compile time:
+44.1 kHz, or 48, or 16-bit. Truepod plays the file at its own rate and bit depth,
+and tells you when it could not.
 
 ## Download
 
@@ -17,66 +17,53 @@ Pick the build for your firmware from **[the latest release](../../releases/late
 | spruceOS | `Truepod-<version>-spruceOS.zip` |
 | stock TrimUI | `Truepod-<version>-stockOS.zip` |
 
-Same player, packaged for where each firmware looks for apps.
+Same player in both. They differ only in which directory the firmware looks in.
 
 ## Install
 
-1. Unzip. You get one folder.
-2. Copy that folder into the **`App`** directory at the root of your SD card
-   (stock firmware: **`Apps`** — the zip's readme repeats which).
-3. Put music in `/mnt/SDCARD/MEDIA`. Subfolders are how you browse.
-4. Start the device and open **Truepod**.
+1. Unzip. You get a `Truepod` folder.
+2. Copy it onto the SD card. spruceOS: `/mnt/SDCARD/App/`. Stock TrimUI:
+   `/mnt/SDCARD/Apps/`. You should end up with `…/Truepod/truepod`.
+3. Put music in `/mnt/SDCARD/MEDIA`. Subfolders are how you browse it.
+4. Boot the device and open **Truepod**.
 
-## Using it
+## Guide
 
-The buttons on this device are unlabelled, so **SELECT opens the Options
-screen, which is the manual** — every binding is listed there.
+| Button | Library | Now playing |
+|---|---|---|
+| D-pad up/down | move the selection | — |
+| A | open folder, or play | play / pause |
+| B | up one folder | back to the library |
+| X | delete the track (asks first) | shuffle on / off |
+| Y | Wi-Fi upload | repeat all / one / off |
+| L1 / R1 | page up / down | previous / next track |
+| L2 / R2 | — | seek 10 seconds |
+| START | go to Now Playing | back to the library |
 
-The ones you need immediately: **A** plays, **B** goes back, **START** is Now
-Playing, **L1/R1** change track. Volume is the side buttons.
+These work on any screen: **SELECT** opens Options, **MENU** quits, the **right
+stick click** turns the screen off with the music still playing, and the side
+buttons are volume.
 
-To get music on without a card reader, open **Wi-Fi upload** in Options and
-scan the QR code from a phone on the same network.
+To add music without a card reader, press **Y** in the library and scan the QR
+code from a phone on the same network.
 
-## Two things that look like bugs and are not
+## Later
 
-**"It says CONVERTED."** The built-in speaker runs a fixed 48 kHz clock, so
-44.1 kHz music — most music — has to be resampled for it. Truepod reports that
-honestly. Plug a USB DAC into the **top** port and the same file plays
-BIT-PERFECT. The reading comes from the kernel, not from the player's opinion
-of itself.
+Free keeps the feature set it has now: bug fixes, not new features.
 
-**"The battery drains while it sits there."** The device will not sleep while
-Truepod is open: this firmware's sleep kills playback and never resumed
-cleanly, so the player prevents it. Click the **right stick** to blank the
-screen with the music still playing, or quit with **MENU** and the device
-sleeps normally.
+A **Truepod Pro** edition is planned, not released. Sleep timer, favourites,
+per-track resume, an editable queue, gapless, a tag index with artist/album
+browsing and search, saved playlists, Telegram sync, EQ, hot-switching a USB DAC
+on the bottom port, a choice of screen layouts, and more LED modes.
 
-## Diagnostics
-
-The beta sends back **its own log file** after you quit — the `truepod.log` in
-the app's folder, which you can read yourself. Never your music, never a
-password, and nothing while you are listening. File names in it can be switched
-off in Options. The app asks you to agree first; details in
-**[Terms](TERMS.md)**.
-
-## Coming later
-
-Free: sleep timer, favourites, per-track resume, an editable queue, gapless.
-
-A **Truepod Pro** edition is planned, not released — a tag index with artist/album
-browsing and search, saved playlists, Telegram sync, EQ, and hot-switching a
-USB DAC on the bottom port.
-
-Pro will never gate output quality or basic player behaviour. There is no
-quality ceiling in Free and there will not be one; that is the whole reason
-this player exists.
+Pro will never gate output quality. There is no quality ceiling in Free and
+there will not be one; that is the whole reason this player exists.
 
 ## Reporting a problem
 
-Open an issue with your firmware, the version, and `truepod.log` from the app's
+Open an issue with your firmware, the version, and `truepod.log` from the app
 folder on the card. Its first lines say what your firmware provides, which
-usually explains any difference between two devices straight away.
+usually explains a difference between two devices straight away.
 
 
 ---

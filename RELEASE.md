@@ -1,17 +1,13 @@
 # Truepod 0.1.0 — first public beta
 
-*The body of the GitHub release. Copy it into the release, or pass it with
-`gh release create --notes-file RELEASE.md`. Vietnamese follows the English.*
+A bit-perfect music player for the TrimUI Brick Pro.
 
----
+Every other player on this handheld fixes its output quality at compile time:
+44.1 kHz, or 48, or 16-bit. Truepod plays the file at its own rate and bit depth,
+and tells you when it could not.
 
-A bit-perfect music player for the **TrimUI Brick Pro**. Every other player on
-this handheld caps its output at compile time — 44.1 kHz, or 48, or 16-bit.
-Truepod plays the file you actually have, and when the hardware cannot, it says
-so instead of pretending.
-
-Free, and the quality is not the paid part. There is no output ceiling in this
-build and there will not be one.
+Free. The quality is not the paid part, and there is no output ceiling in this
+build.
 
 ## Download
 
@@ -20,92 +16,98 @@ build and there will not be one.
 | spruceOS | `Truepod-0.1.0-spruceOS.zip` |
 | stock TrimUI | `Truepod-0.1.0-stockOS.zip` |
 
-Same player in both. They differ only in which directory the firmware looks in,
-and each archive carries an `INSTALL.txt` repeating the one below.
+Same player in both. They differ only in which directory the firmware looks in.
 
 ## Install
 
 1. Unzip. You get a `Truepod` folder.
-2. Copy it onto the SD card: **spruceOS → `/mnt/SDCARD/App/`**, **stock TrimUI →
-   `/mnt/SDCARD/Apps/`**. You should end up with `…/Truepod/truepod`.
+2. Copy it onto the SD card. spruceOS: `/mnt/SDCARD/App/`. Stock TrimUI:
+   `/mnt/SDCARD/Apps/`. You should end up with `…/Truepod/truepod`.
 3. Put music in `/mnt/SDCARD/MEDIA`. Subfolders are how you browse it.
-4. Boot, open **Truepod**, agree to the beta terms.
+4. Boot the device and open Truepod.
 
-No installer, no patching the firmware, nothing written outside the card.
-Delete the folder to uninstall.
+## Features
 
-## What it does
-
-- **Bit-perfect** through a USB DAC on the **top** port, at the file's own rate
-  and bit depth — verified to 88.2 kHz / 24-bit.
-- **The fidelity badge is read from the kernel**, not from the player's opinion
-  of itself: `BIT-PERFECT` and `CONVERTED` describe what the sound card actually
-  negotiated.
+- Bit-perfect output through a USB DAC on the top port, tested to
+  88.2 kHz / 24-bit.
 - FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC.
-- Folder browser showing each track's real rate and bit depth **before** you
-  play it. Embedded cover art. Remembers where you were.
-- **Wi-Fi upload from a QR code** — get music on without pulling the card.
-- Spectrum visualiser on screen and across the **RGB LEDs**, driven by the music
-  rather than by the volume. Switch them off in Options if you prefer.
-- **Screen off, music on**: click the right stick.
-- Runs on **spruceOS and on stock TrimUI firmware**.
+- The browser shows each track's real sample rate and bit depth before you play
+  it, with embedded cover art. It remembers the folder you were last in.
+- Wi-Fi upload from a QR code, so you can add music without taking the card out.
+- A spectrum display on screen, and the RGB LEDs flash to the beat. Both can be
+  switched off in Options.
+- Screen off with the music still playing.
+- Shuffle and repeat all / one / off.
+- Delete a track from the browser, with a confirmation.
+- Runs on spruceOS and on stock TrimUI firmware.
 
-The device has no manual and its buttons are unlabelled, so **SELECT opens
-Options, and Options is the manual** — every binding is listed there.
+## Buttons
 
-## Two things that look like bugs
+| Button | Library | Now playing |
+|---|---|---|
+| D-pad up/down | move the selection | — |
+| A | open folder, or play | play / pause |
+| B | up one folder | back to the library |
+| X | delete the track (asks first) | shuffle on / off |
+| Y | Wi-Fi upload | repeat all / one / off |
+| L1 / R1 | page up / down | previous / next track |
+| L2 / R2 | — | seek 10 seconds |
+| START | go to Now Playing | back to the library |
 
-**"It says CONVERTED."** The built-in speaker runs a fixed 48 kHz clock, so
-44.1 kHz music — most music — must be resampled for it. Truepod reports that
-honestly rather than claiming otherwise. Plug a USB DAC into the top port and
-the same file plays `BIT-PERFECT`.
+These work on any screen: **SELECT** opens Options, **MENU** quits, the **right
+stick click** turns the screen off with the music still playing, and the side
+buttons are volume.
 
-**"The battery drains while it sits idle."** The device will not sleep while
-Truepod is open: this firmware's sleep kills playback and never resumed
-cleanly, so the player prevents it. Click the right stick to blank the screen
-with the music playing, or quit with **MENU** and the device sleeps normally.
+## BIT-PERFECT and CONVERTED
 
-## Beta diagnostics
+The badge says which one you are getting, and it is read from the sound card
+rather than from the player.
 
-This build uploads **its own log** — the `truepod.log` in the app folder, which
-you can read — after you quit. Never your music, never a credential, nothing
-while you are listening. File names in it can be switched off in Options. It
-asks you to agree on first launch; declining quits. See
-**[Terms](TERMS.md)** ([Tiếng Việt](TERMS.vi.md)).
+**BIT-PERFECT** — the samples in the file are what reach the DAC. No software
+touched them.
+
+**CONVERTED** — software had to change something on the way, usually the sample
+rate. The built-in speaker runs at a fixed 48 kHz, so 44.1 kHz music has to be
+resampled for it. A USB DAC on the top port takes the file's own rate, and the
+same track plays bit-perfect.
 
 ## Known limitations
 
-- No sleep while the app is open; quit to let the device sleep.
-- On stock firmware nothing stops the firmware suspending mid-track.
-- No gapless playback yet.
-- Tested to 88.2 kHz. Higher rates are untested rather than known-bad.
+- The device will not sleep while Truepod is open, so it keeps using battery.
+  Quit with MENU and it sleeps normally.
+- On stock firmware nothing stops the firmware suspending in the middle of a
+  track.
+- No gapless playback.
+- Tested to 88.2 kHz. Higher rates are untested rather than known bad.
 
 ## Later
 
-**Free:** sleep timer, favourites, per-track resume, an editable queue, gapless.
+Free keeps the feature set it has now. Bug fixes, not new features.
 
-**Truepod Pro** — planned, not released: a tag index with artist/album browsing
-and search, saved playlists, Telegram sync, EQ, and hot-switching a USB DAC on
-the bottom port. Pro will never gate output quality or basic playback.
+Truepod Pro, planned and not released: sleep timer, favourites, per-track resume,
+an editable queue, gapless, a tag index for browsing by artist and album, search,
+saved playlists, Telegram sync, EQ, hot-switching a USB DAC on the bottom port,
+a choice of screen layouts, and more LED modes. Pro will not gate output
+quality.
 
 ## Something broken?
 
 Open an issue with your firmware, this version, and `truepod.log` from the app
-folder. Its first lines name what your firmware provides, which usually
-explains a difference between two devices immediately.
+folder. Its first lines say what your firmware provides, which usually explains
+a difference between two devices straight away.
 
----
 ---
 
 # Truepod 0.1.0 — bản beta công khai đầu tiên
 
-Máy nghe nhạc **bit-perfect** cho **TrimUI Brick Pro**. Mọi player khác trên máy
-này đều chặn chất lượng đầu ra ngay lúc biên dịch — 44.1 kHz, hoặc 48, hoặc
-16-bit. Truepod phát đúng file bạn có, và khi phần cứng không làm được thì nó
-**nói thẳng** thay vì giả vờ.
+Máy nghe nhạc bit-perfect cho TrimUI Brick Pro.
 
-Miễn phí, và chất lượng không phải là phần thu phí. Bản này không có trần chất
-lượng, và sẽ không bao giờ có.
+Mọi player khác trên máy này đều chốt chất lượng đầu ra ngay lúc biên dịch:
+44.1 kHz, hoặc 48, hoặc 16-bit. Truepod phát file đúng sample rate và bit depth
+của nó, và nói cho bạn biết khi không làm được.
+
+Miễn phí. Chất lượng không phải phần thu phí, và bản này không có trần chất
+lượng.
 
 ## Tải về
 
@@ -114,76 +116,78 @@ lượng, và sẽ không bao giờ có.
 | spruceOS | `Truepod-0.1.0-spruceOS.zip` |
 | TrimUI gốc | `Truepod-0.1.0-stockOS.zip` |
 
-Cùng một player. Khác nhau duy nhất ở thư mục mà firmware tìm app, và mỗi file
-nén đều kèm `INSTALL.txt` nhắc lại hướng dẫn dưới đây.
+Cùng một player. Chỉ khác thư mục mà firmware tìm app.
 
 ## Cài đặt
 
-1. Giải nén. Bạn được một thư mục `Truepod`.
-2. Copy vào thẻ SD: **spruceOS → `/mnt/SDCARD/App/`**, **TrimUI gốc →
-   `/mnt/SDCARD/Apps/`**. Kết quả phải là `…/Truepod/truepod`.
+1. Giải nén, được một thư mục `Truepod`.
+2. Copy vào thẻ SD. spruceOS: `/mnt/SDCARD/App/`. TrimUI gốc: `/mnt/SDCARD/Apps/`.
+   Kết quả phải là `…/Truepod/truepod`.
 3. Để nhạc vào `/mnt/SDCARD/MEDIA`. Các thư mục con chính là cách bạn duyệt nhạc.
-4. Khởi động máy, mở **Truepod**, đồng ý điều khoản beta.
+4. Khởi động máy và mở Truepod.
 
-Không cần installer, không vá firmware, không ghi gì ra ngoài thẻ. Xoá thư mục
-là xong gỡ.
+## Tính năng
 
-## Có gì
-
-- **Bit-perfect** qua USB DAC cắm cổng **trên**, đúng sample rate và bit depth
-  của file — đã đo tới 88.2 kHz / 24-bit.
-- **Nhãn chất lượng đọc từ kernel**, không phải từ player tự khai: `BIT-PERFECT`
-  và `CONVERTED` mô tả đúng cái mà sound card thật sự đã thương lượng được.
+- Bit-perfect qua USB DAC cắm cổng trên, đã test tới 88.2 kHz / 24-bit.
 - FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC.
-- Browser theo thư mục, hiện sample rate và bit depth thật của từng bài **trước
-  khi** phát. Cover art nhúng trong file. Nhớ thư mục lần trước đang mở.
-- **Upload qua Wi-Fi bằng QR code** — đưa nhạc vào máy không cần rút thẻ.
-- Spectrum hiển thị trên màn hình và trên **dàn LED RGB**, chạy theo nhạc chứ
-  không theo âm lượng. Không thích thì tắt trong Options.
-- **Tắt màn hình, nhạc vẫn chạy**: bấm nút cần analog phải.
-- Chạy được trên **spruceOS và cả firmware TrimUI gốc**.
+- Browser hiện sample rate và bit depth thật của từng bài trước khi phát, kèm
+  cover art nhúng trong file. Nhớ thư mục lần trước đang mở.
+- Upload qua Wi-Fi bằng QR code, thêm nhạc không cần rút thẻ.
+- Hiển thị phổ nhạc trên màn hình, LED nháy theo nhịp nhạc. Tắt được trong
+  Options.
+- Tắt màn hình mà nhạc vẫn chạy.
+- Shuffle và repeat all / one / off.
+- Xoá bài ngay trong browser, có hỏi lại.
+- Chạy trên spruceOS và cả firmware TrimUI gốc.
 
-Máy này không có sách hướng dẫn và các nút thì không ghi nhãn, nên **SELECT mở
-Options, và Options chính là sách hướng dẫn** — mọi phím đều liệt kê ở đó.
+## Phím
 
-## Hai thứ trông như bug nhưng không phải
+| Nút | Danh sách nhạc | Đang phát |
+|---|---|---|
+| D-pad lên/xuống | di chuyển | — |
+| A | mở thư mục, hoặc phát | play / pause |
+| B | lùi ra thư mục cha | về danh sách |
+| X | xoá bài (hỏi lại) | bật / tắt shuffle |
+| Y | upload Wi-Fi | repeat all / one / off |
+| L1 / R1 | lật trang | bài trước / bài sau |
+| L2 / R2 | — | tua 10 giây |
+| START | sang Đang phát | về danh sách |
 
-**"Nó ghi CONVERTED."** Loa trong máy chạy clock cố định 48 kHz, nên nhạc
-44.1 kHz — tức là phần lớn nhạc — buộc phải resample. Truepod báo thật chuyện
-đó chứ không nhận vơ. Cắm USB DAC vào cổng trên thì đúng file đó phát
-`BIT-PERFECT`.
+Dùng được ở mọi màn hình: **SELECT** mở Options, **MENU** thoát, **bấm cần
+analog phải** tắt màn hình mà nhạc vẫn chạy, và hai nút cạnh máy là âm lượng.
 
-**"Để không mà vẫn tụt pin."** Máy sẽ không ngủ khi Truepod đang mở: cơ chế
-sleep của firmware này giết luôn playback và chưa bao giờ resume sạch, nên
-player chặn nó. Bấm cần analog phải để tắt màn hình mà nhạc vẫn chạy, hoặc
-thoát bằng **MENU** thì máy ngủ bình thường.
+## BIT-PERFECT và CONVERTED
 
-## Diagnostics của bản beta
+Nhãn trên màn hình cho biết bạn đang nghe loại nào, và nó đọc từ sound card chứ
+không phải từ player tự khai.
 
-Bản này gửi lên **log của chính nó** — file `truepod.log` trong thư mục app, bạn
-đọc được — sau khi bạn thoát. Không có nhạc của bạn, không có mật khẩu, và
-không gửi gì trong lúc bạn đang nghe. Tên file trong log có thể tắt trong
-Options. App hỏi bạn đồng ý ở lần mở đầu tiên; không đồng ý thì nó thoát. Xem
-**[Điều khoản](TERMS.vi.md)**.
+**BIT-PERFECT** — đúng những mẫu trong file đi tới DAC. Không có phần mềm nào
+can thiệp.
+
+**CONVERTED** — phần mềm phải sửa gì đó trên đường đi, thường là sample rate.
+Loa trong máy chạy cố định 48 kHz, nên nhạc 44.1 kHz buộc phải resample. Cắm USB
+DAC vào cổng trên thì nó nhận đúng rate của file, và bài đó phát bit-perfect.
 
 ## Hạn chế đã biết
 
-- Máy không ngủ khi app đang mở; thoát ra thì ngủ.
+- Máy không ngủ khi Truepod đang mở, nên vẫn tốn pin. Thoát bằng MENU thì máy
+  ngủ bình thường.
 - Trên firmware gốc, không có gì chặn firmware suspend giữa bài.
 - Chưa có gapless.
-- Chỉ mới test tới 88.2 kHz. Cao hơn là *chưa test*, không phải là không chạy.
+- Chỉ mới test tới 88.2 kHz. Cao hơn là chưa test, không phải là không chạy.
 
 ## Sắp tới
 
-**Free:** hẹn giờ tắt, favourite, nhớ vị trí từng bài, queue sửa được, gapless.
+Bản Free giữ nguyên tập tính năng hiện tại. Sửa lỗi, không thêm tính năng.
 
-**Truepod Pro** — đang lên kế hoạch, chưa phát hành: index theo tag để duyệt
-artist/album và tìm kiếm, playlist lưu được, Telegram sync, EQ, và đổi nóng USB
-DAC ở cổng dưới. Pro sẽ không bao giờ khoá chất lượng đầu ra hay thao tác phát
-nhạc cơ bản.
+Truepod Pro, đang lên kế hoạch và chưa phát hành: hẹn giờ tắt, favourite, nhớ vị
+trí từng bài, queue sửa được, gapless, index theo tag để duyệt theo artist và
+album, tìm kiếm, playlist lưu được, Telegram sync, EQ, đổi nóng USB DAC ở cổng
+dưới, nhiều layout màn hình để chọn, và thêm nhiều chế độ LED. Pro sẽ không khoá
+chất lượng đầu ra.
 
 ## Gặp lỗi?
 
 Mở issue kèm firmware bạn dùng, phiên bản này, và file `truepod.log` trong thư
-mục app. Mấy dòng đầu của nó cho biết firmware của bạn cung cấp những gì —
-thường giải thích ngay khác biệt giữa hai máy.
+mục app. Mấy dòng đầu của nó cho biết firmware của bạn cung cấp những gì, thường
+giải thích ngay khác biệt giữa hai máy.
