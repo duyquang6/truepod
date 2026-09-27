@@ -1,0 +1,3 @@
+# Release assets are attached to GitHub releases, not committed.
+*.zip
+dist/
