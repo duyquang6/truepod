@@ -1,4 +1,4 @@
-# Truepod 0.1.0 — first public beta
+# Truepod 0.1.0
 
 *Tiếng Việt: [hướng dẫn cài đặt và tính năng](https://github.com/duyquang6/truepod/blob/main/README.vi.md)*
 
