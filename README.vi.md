@@ -79,7 +79,7 @@ Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tí
 | Duyệt theo nghệ sĩ và album, tìm kiếm, playlist `.m3u` | ❌ | ✅ |
 | Yêu thích, hàng đợi sửa được, nhớ vị trí từng bài | ❌ | ✅ |
 | Gapless, EQ | ❌ | ✅ |
-| Đồng bộ Telegram | ❌ | ✅ |
+| Đồng bộ và stream nhạc từ Telegram, Spotify, SoundCloud… | ❌ | ✅ |
 | Dùng cổng USB dưới làm DAC | ❌ | ✅ |
 | Cập nhật qua mạng (OTA) | ❌ | ✅ |
 | Nhiều layout màn hình, nhiều chế độ LED | ❌ | ✅ |

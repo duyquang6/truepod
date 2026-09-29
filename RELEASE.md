@@ -62,7 +62,7 @@ Free is frozen at what it has now: bug fixes, not new features.
 | Browse by artist and album, search, saved `.m3u` playlists | ❌ | ✅ |
 | Favourites, an editable queue, per-track resume | ❌ | ✅ |
 | Gapless, EQ | ❌ | ✅ |
-| Telegram sync | ❌ | ✅ |
+| Sync and stream music from Telegram, Spotify, SoundCloud and more | ❌ | ✅ |
 | Use the bottom USB port for a DAC | ❌ | ✅ |
 | Updates over the air | ❌ | ✅ |
 | A choice of screen layouts, more LED modes | ❌ | ✅ |
