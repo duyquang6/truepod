@@ -39,11 +39,11 @@ Cùng một trình phát. Chỉ khác thư mục mà firmware tìm app.
 
 ## Cài đặt
 
-1. Giải nén, được một thư mục `Truepod`.
-2. Copy vào thẻ SD. spruceOS: `/mnt/SDCARD/App/`. TrimUI gốc: `/mnt/SDCARD/Apps/`.
-   Kết quả phải là `…/Truepod/truepod`.
-3. Để nhạc vào `/mnt/SDCARD/MEDIA`. Các thư mục con chính là cách bạn duyệt nhạc.
-4. Khởi động máy và mở **Truepod**.
+1. Giải nén thẳng vào thư mục gốc của thẻ SD, chọn gộp thư mục nếu được hỏi.
+   Trong zip đã có sẵn đúng thư mục cho firmware của bạn: `App/Truepod` cho
+   spruceOS, `Apps/Truepod` cho TrimUI gốc.
+2. Để nhạc vào `/mnt/SDCARD/MEDIA`. Các thư mục con chính là cách bạn duyệt nhạc.
+3. Khởi động máy và mở **Truepod**.
 
 ## Hướng dẫn
 

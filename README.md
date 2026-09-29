@@ -40,11 +40,11 @@ Same player in both. They differ only in which directory the firmware looks in.
 
 ## Install
 
-1. Unzip. You get a `Truepod` folder.
-2. Copy it onto the SD card. spruceOS: `/mnt/SDCARD/App/`. Stock TrimUI:
-   `/mnt/SDCARD/Apps/`. You should end up with `…/Truepod/truepod`.
-3. Put music in `/mnt/SDCARD/MEDIA`. Subfolders are how you browse it.
-4. Boot the device and open **Truepod**.
+1. Unzip onto the root of the SD card, and merge the folder when asked. The zip
+   already carries the right one for your firmware: `App/Truepod` for spruceOS,
+   `Apps/Truepod` for stock TrimUI.
+2. Put music in `/mnt/SDCARD/MEDIA`. Subfolders are how you browse it.
+3. Boot the device and open **Truepod**.
 
 ## Guide
 
