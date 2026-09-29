@@ -89,7 +89,6 @@ Free is frozen at what it has now: bug fixes, not new features.
 | Gapless, EQ | ❌ | ✅ |
 | Sync and stream music from Telegram, Spotify, SoundCloud and more | ❌ | ✅ |
 | Stream from your own music server (Navidrome and other Subsonic servers), bit-perfect | ❌ | ✅ |
-| Bluetooth receiver: play from your phone through the handheld and its DAC | ❌ | ✅ |
 | Use the bottom USB port for a DAC | ❌ | ✅ |
 | Updates over the air | ❌ | ✅ |
 | A choice of screen layouts, more LED modes | ❌ | ✅ |
