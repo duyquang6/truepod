@@ -10,7 +10,8 @@ A bit-perfect music player for the TrimUI Brick Pro.
   by what it does rather than by its name, so dongles that call it something
   unusual are no longer skipped. A DAC with no hardware volume says so on the
   Options screen.
-- **The title no longer jumps on a track change** while the next cover loads.
+- **No more blinking on a track change.** The cover, the tags line and the
+  CONVERTED badge stay put until the next track's arrive.
 - **SELECT and MENU are shown on Now Playing**, so Options and the way out can
   be found without the manual the device does not have.
 - **Installing is unzipping onto the card.** Each zip already carries `App/` or

@@ -10,8 +10,8 @@ Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
 **Fixed**
 - Volume keys did nothing on USB DACs whose volume control is not named `PCM`;
   it is now found by capability
-- The Now Playing text jumped up and back down on every track change while the
-  next cover decoded
+- Now Playing blinked on every track change: the tags line, the badge and the
+  cover each vanished for a moment, and the text beneath jumped up and back
 - A long title on a track without cover art printed over the top corner
 
 **Added**
