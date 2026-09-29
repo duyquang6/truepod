@@ -20,8 +20,3 @@ Full notes: **[RELEASE.md](RELEASE.md)**.
 - Screen off with the right stick or the power button, music continuing
 - Diagnostics: the app's own log uploaded after you quit, consented to on a
   terms screen, with file names switchable off
-
-**Known limitations**
-- The device does not sleep while the app is open
-- On stock firmware nothing prevents the firmware suspending mid-track
-- No gapless playback

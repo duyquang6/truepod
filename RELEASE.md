@@ -99,15 +99,6 @@ rate. The built-in speaker runs at a fixed 48 kHz, so 44.1 kHz music has to be
 resampled for it. A USB DAC on the top port takes the file's own rate, and the
 same track plays bit-perfect.
 
-## Known limitations
-
-- The device will not sleep while Truepod is open, so it keeps using battery.
-  Quit with MENU and it sleeps normally.
-- On stock firmware nothing stops the firmware suspending in the middle of a
-  track.
-- No gapless playback.
-- Tested to 88.2 kHz. Higher rates are untested rather than known bad.
-
 ## Something broken?
 
 Open an issue with your firmware, this version, and `truepod.log` from the app
