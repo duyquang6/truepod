@@ -4,6 +4,11 @@ Trình phát nhạc bit-perfect cho **TrimUI Brick Pro**.
 
 *[English](README.md)*
 
+<p align="center">
+  <img src="media/now-playing.gif" width="300" alt="Màn hình đang phát, với phổ âm và đèn LED">
+  <img src="media/wifi-sync.jpg" width="300" alt="Chép nhạc qua Wi-Fi bằng mã QR">
+</p>
+
 Mọi trình phát khác trên máy này đều phải hy sinh một thứ gì đó. Có cái giới
 hạn đầu ra ở 44.1 kHz hoặc 16-bit, có cái resample hết về 48 kHz. Nút âm lượng
 không chỉnh được volume của DAC USB. Nhạc bị giật, bị lag, bị nhảy bài. Và phải

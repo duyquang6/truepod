@@ -4,6 +4,11 @@ A bit-perfect music player for the **TrimUI Brick Pro**.
 
 *[Tiếng Việt](README.vi.md)*
 
+<p align="center">
+  <img src="media/now-playing.gif" width="300" alt="Now Playing, with the spectrum and the LEDs">
+  <img src="media/wifi-sync.jpg" width="300" alt="Wi-Fi upload from a QR code">
+</p>
+
 Every other player on this handheld gives something up. Some cap the output at
 44.1 kHz or 16-bit, others resample everything to 48 kHz. The side buttons cannot
 turn a USB DAC up or down. Playback stutters, skips, or jumps to the next song.
