@@ -86,6 +86,8 @@ Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tí
 | Yêu thích, hàng đợi sửa được, nhớ vị trí từng bài | ❌ | ✅ |
 | Gapless, EQ | ❌ | ✅ |
 | Đồng bộ và stream nhạc từ Telegram, Spotify, SoundCloud… | ❌ | ✅ |
+| Stream bit-perfect từ server nhạc riêng (Navidrome và các server Subsonic) | ❌ | ✅ |
+| Nhận nhạc Bluetooth từ điện thoại, phát qua máy và DAC | ❌ | ✅ |
 | Dùng cổng USB dưới làm DAC | ❌ | ✅ |
 | Cập nhật qua mạng (OTA) | ❌ | ✅ |
 | Nhiều layout màn hình, nhiều chế độ LED | ❌ | ✅ |
