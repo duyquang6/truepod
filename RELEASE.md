@@ -101,6 +101,6 @@ same track plays bit-perfect.
 
 ## Something broken?
 
-Open an issue with your firmware, this version, and `truepod.log` from the app
+[Open an issue on GitHub](https://github.com/duyquang6/truepod/issues/new) with your firmware, this version, and `truepod.log` from the app
 folder. Its first lines say what your firmware provides, which usually explains
 a difference between two devices straight away.

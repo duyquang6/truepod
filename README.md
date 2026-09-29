@@ -90,7 +90,7 @@ Free is frozen at what it has now: bug fixes, not new features.
 
 ## Reporting a problem
 
-Open an issue with your firmware, the version, and `truepod.log` from the app
+[Open an issue on GitHub](https://github.com/duyquang6/truepod/issues/new) with your firmware, the version, and `truepod.log` from the app
 folder on the card. Its first lines say what your firmware provides, which
 usually explains a difference between two devices straight away.
 
