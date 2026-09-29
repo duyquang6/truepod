@@ -35,7 +35,6 @@ body:
         - Built-in speaker or headphone jack / Loa trong hoặc jack tai nghe
         - USB DAC on the top port / DAC USB ở cổng trên
         - USB DAC on the bottom port / DAC USB ở cổng dưới
-        - Bluetooth
     validations:
       required: true
 
