@@ -19,8 +19,9 @@ Truepod fixes all of that:
 
 - **Full quality.** It plays the file at its own sample rate and bit depth, and
   tells you when it could not.
-- **The side buttons control the DAC.** With a USB DAC, the volume keys set the
-  DAC's own hardware volume, so the samples themselves are never touched.
+- **The side buttons control the DAC.** On a USB DAC with a hardware volume,
+  the volume keys set it inside the DAC, so the samples themselves are never
+  touched. A DAC without one, or that ignores it, keeps its own volume.
 - **No stutters, no skipped songs.** The audio gets a CPU core of its own, away
   from the rest of the system. Pausing or replugging the DAC never counts as
   the end of a song.
