@@ -4,9 +4,22 @@ Trình phát nhạc bit-perfect cho **TrimUI Brick Pro**.
 
 *[English](README.md)*
 
-Mọi trình phát khác trên máy này đều chốt chất lượng đầu ra ngay lúc biên dịch:
-44.1 kHz, hoặc 48, hoặc 16-bit. Truepod phát file đúng sample rate và bit depth
-của nó, và nói cho bạn biết khi không làm được.
+Mọi trình phát khác trên máy này đều phải hy sinh một thứ gì đó. Có cái giới
+hạn đầu ra ở 44.1 kHz hoặc 16-bit, có cái resample hết về 48 kHz. Nút âm lượng
+không chỉnh được volume của DAC USB. Nhạc bị giật, bị lag, bị nhảy bài. Và phải
+để màn hình sáng thì nhạc mới chạy, nên rất tốn pin.
+
+Truepod khắc phục tất cả:
+
+- **Chất lượng đầy đủ.** Phát file đúng sample rate và bit depth của nó, và nói
+  cho bạn biết khi không làm được.
+- **Nút âm lượng chỉnh được DAC.** Với DAC USB, nút âm lượng chỉnh volume phần
+  cứng của chính DAC, nên dữ liệu âm thanh không bị đụng tới.
+- **Không giật, không nhảy bài.** Âm thanh có một nhân CPU riêng, tách khỏi phần
+  còn lại của hệ thống. Tạm dừng hay cắm lại DAC không bao giờ bị tính là hết
+  bài.
+- **Tắt màn hình, nhạc vẫn chạy.** Tắt màn hình là CPU xuống chế độ tiết kiệm
+  điện nhất, còn nhạc vẫn phát.
 
 ## Tải về
 

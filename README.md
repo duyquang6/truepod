@@ -4,9 +4,23 @@ A bit-perfect music player for the **TrimUI Brick Pro**.
 
 *[Tiếng Việt](README.vi.md)*
 
-Every other player on this handheld fixes its output quality at compile time:
-44.1 kHz, or 48, or 16-bit. Truepod plays the file at its own rate and bit depth,
-and tells you when it could not.
+Every other player on this handheld gives something up. Some cap the output at
+44.1 kHz or 16-bit, others resample everything to 48 kHz. The side buttons cannot
+turn a USB DAC up or down. Playback stutters, skips, or jumps to the next song.
+And the screen has to stay on for the music to keep going, which empties the
+battery.
+
+Truepod fixes all of that:
+
+- **Full quality.** It plays the file at its own sample rate and bit depth, and
+  tells you when it could not.
+- **The side buttons control the DAC.** With a USB DAC, the volume keys set the
+  DAC's own hardware volume, so the samples themselves are never touched.
+- **No stutters, no skipped songs.** The audio gets a CPU core of its own, away
+  from the rest of the system. Pausing or replugging the DAC never counts as
+  the end of a song.
+- **Screen off, music on.** Turn the screen off and the CPU drops to its
+  lowest-power setting while the music keeps playing.
 
 ## Download
 
