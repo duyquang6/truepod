@@ -88,7 +88,7 @@ Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tí
 
 ## Báo lỗi
 
-[Mở issue trên GitHub](https://github.com/duyquang6/truepod/issues/new), ghi firmware, phiên bản, và đính kèm `truepod.log` trong thư mục app
+[Mở issue trên GitHub](https://github.com/duyquang6/truepod/issues/new?template=bug_report.yml), ghi firmware, phiên bản, và đính kèm `truepod.log` trong thư mục app
 trên thẻ. Mấy dòng đầu của nó nói firmware của bạn có sẵn những gì, thường chỉ
 cần vậy là đủ giải thích vì sao hai máy chạy khác nhau.
 

@@ -1,0 +1,81 @@
+name: Bug report / Báo lỗi
+description: Something is not working / Có gì đó không chạy đúng
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The log is what usually explains the problem, so please attach it.
+        Cảm ơn bạn đã báo lỗi. File log thường là thứ giải thích được vấn đề, nên nhớ đính kèm nhé.
+
+  - type: dropdown
+    id: firmware
+    attributes:
+      label: Firmware
+      options:
+        - spruceOS
+        - Stock TrimUI
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Truepod version / Phiên bản Truepod
+      description: In the name of the zip you downloaded / Có trong tên file zip bạn đã tải
+      placeholder: "0.1.0"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: output
+    attributes:
+      label: Audio output / Đầu ra âm thanh
+      options:
+        - Built-in speaker or headphone jack / Loa trong hoặc jack tai nghe
+        - USB DAC on the top port / DAC USB ở cổng trên
+        - USB DAC on the bottom port / DAC USB ở cổng dưới
+        - Bluetooth
+    validations:
+      required: true
+
+  - type: input
+    id: dac
+    attributes:
+      label: DAC model (if any) / Tên DAC (nếu có)
+      placeholder: "e.g. FiiO KA11"
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / Chuyện gì đã xảy ra?
+      description: What you expected, and what you got instead / Bạn mong đợi gì, và thực tế ra sao
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again / Cách làm lỗi xảy ra lại
+      placeholder: |
+        1. Open a folder / Mở một thư mục
+        2. Play a 96 kHz FLAC / Phát một file FLAC 96 kHz
+        3. ...
+
+  - type: textarea
+    id: track
+    attributes:
+      label: The track (if it is about one song) / Bài nhạc (nếu lỗi ở một bài)
+      description: Format, sample rate, bit depth - the library shows them next to each file / Định dạng, sample rate, bit depth - thư viện hiện sẵn cạnh mỗi file
+      placeholder: "FLAC 24-bit / 96 kHz"
+
+  - type: textarea
+    id: log
+    attributes:
+      label: truepod.log
+      description: |
+        Quit Truepod first, then drag the file here. It is in the app folder on the SD card:
+        Thoát Truepod trước, rồi kéo file vào đây. File nằm trong thư mục app trên thẻ nhớ:
+        spruceOS: `/mnt/SDCARD/App/Truepod/truepod.log` · Stock: `/mnt/SDCARD/Apps/Truepod/truepod.log`
+    validations:
+      required: true
