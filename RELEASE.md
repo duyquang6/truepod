@@ -14,9 +14,6 @@ A bit-perfect music player for the TrimUI Brick Pro.
 - **Booting with a DAC plugged in no longer loses the buttons.**
 - **B and START on Options go back to Now Playing.**
 - **The built-in output is called "Built-in"**, not `audiocodec`.
-- **Logs are sent from stock firmware too.**
-- **Logs made offline are kept and sent later**, the next time you open or quit
-  Truepod with Wi-Fi on, and a session that crashed now sends its log too.
 
 <p align="center">
   <img src="https://github.com/duyquang6/truepod/raw/main/media/now-playing.gif" width="300" alt="Now Playing, with the spectrum and the LEDs">
