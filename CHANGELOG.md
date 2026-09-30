@@ -16,10 +16,13 @@ Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
   buttons
 - B and START on Options did not return to Now Playing
 - A session that crashed never sent its log
+- Stock firmware never sent a log: its CA list cannot verify the log server,
+  so the app now carries its own (`cacert.pem`)
 
 **Added**
 - Rumble on the beat, off by default, with its own Options row
-- Logs that cannot be sent wait on the card and go on a later exit with Wi-Fi
+- Logs that cannot be sent wait on the card and go the next time the player
+  opens or quits with Wi-Fi
 
 **Changed**
 - The built-in output is shown as "Built-in" rather than `audiocodec`
