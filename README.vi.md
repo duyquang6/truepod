@@ -18,14 +18,12 @@ Truepod khắc phục tất cả:
 
 - **Chất lượng đầy đủ.** Phát file đúng sample rate và bit depth của nó, và nói
   cho bạn biết khi không làm được.
-- **Nút âm lượng chỉnh được DAC.** Với DAC USB có volume phần cứng, nút âm lượng
-  chỉnh volume ngay trong DAC, nên dữ liệu âm thanh không bị đụng tới. DAC nào
-  không có, hoặc bỏ qua lệnh này, thì giữ volume riêng của nó.
-- **Không giật, không nhảy bài.** Âm thanh có một nhân CPU riêng, tách khỏi phần
-  còn lại của hệ thống. Tạm dừng hay cắm lại DAC không bao giờ bị tính là hết
-  bài.
-- **Tắt màn hình, nhạc vẫn chạy.** Tắt màn hình là CPU xuống chế độ tiết kiệm
-  điện nhất, còn nhạc vẫn phát.
+- **Nút âm lượng chỉnh được DAC.** Nút âm lượng tăng giảm DAC USB mà không làm
+  giảm chất lượng. DAC nào không có volume riêng thì dùng nút của chính nó.
+- **Không giật, không nhảy bài.** Tạm dừng hay cắm lại DAC không bao giờ làm
+  nhảy sang bài tiếp theo.
+- **Tắt màn hình, nhạc vẫn chạy.** Tắt màn hình để tiết kiệm pin, còn nhạc vẫn
+  phát.
 
 ## Tải về
 

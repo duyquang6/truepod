@@ -29,8 +29,7 @@ Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
 Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
 
 **Fixed**
-- Volume keys did nothing on USB DACs whose volume control is not named `PCM`;
-  it is now found by capability
+- Volume keys did nothing on some USB DACs
 - Now Playing blinked on every track change: the tags line, the badge and the
   cover each vanished for a moment, and the text beneath jumped up and back
 - A long title on a track without cover art printed over the top corner
@@ -53,7 +52,7 @@ Full notes: **[RELEASE.md](RELEASE.md)**.
 **Added**
 - Bit-perfect playback through a USB DAC on the top port, at the file's own rate
   and bit depth (verified to 88.2 kHz / 24-bit)
-- Fidelity badge read from the kernel rather than from the player
+- The fidelity badge is now accurate
 - FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC; shuffle and repeat all / one / off
 - Folder browser showing each track's real rate and bit depth before playing,
   with embedded cover art, delete-with-confirmation, and last-folder memory
