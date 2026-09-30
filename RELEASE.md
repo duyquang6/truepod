@@ -1,23 +1,25 @@
-# Truepod 0.1.1
+# Truepod 0.2.0
 
 *Tiếng Việt: [hướng dẫn cài đặt và tính năng](https://github.com/duyquang6/truepod/blob/main/README.vi.md)*
 
 A bit-perfect music player for the TrimUI Brick Pro.
 
-## New in 0.1.1
+## New in 0.2.0
 
-- **Volume keys work on more USB DACs.** The DAC's volume control is now found
-  by what it does rather than by its name, so dongles that call it something
-  unusual are no longer skipped. A DAC with no hardware volume says so on the
-  Options screen.
-- **No more blinking on a track change.** The cover, the tags line and the
-  CONVERTED badge stay put until the next track's arrive.
-- **SELECT and MENU are shown on Now Playing**, so Options and the way out can
-  be found without the manual the device does not have.
-- **Installing is unzipping onto the card.** Each zip already carries `App/` or
-  `Apps/` for its firmware.
-- **The log says what your DAC offers:** its formats, rates and volume control,
-  which is what a report about a DAC nobody here owns needs.
+- **No more skips on the speaker and the 3.5 mm jack.** Music now and then
+  lost half a second on the built-in output, never on a USB DAC. The cause was
+  found in the audio driver underneath, not in the player, and the built-in
+  output now goes the way the firmware's own apps send it. A USB DAC is still
+  fed directly, untouched.
+- **Rumble on the beat.** The motor can knock along with the music. Off by
+  default; switch it on under Options.
+- **The DAC keeps its volume.** Starting the player no longer turns a USB DAC
+  up to full.
+- **Booting with a DAC plugged in no longer loses the buttons.**
+- **B and START on Options go back to Now Playing.**
+- **The built-in output is called "Built-in"**, not `audiocodec`.
+- **Logs made offline are kept and sent later**, the next time you quit with
+  Wi-Fi on, and a session that crashed now sends its log too.
 
 <p align="center">
   <img src="https://github.com/duyquang6/truepod/raw/main/media/now-playing.gif" width="300" alt="Now Playing, with the spectrum and the LEDs">
@@ -38,8 +40,9 @@ Truepod fixes all of that:
   the volume keys set it inside the DAC, so the samples themselves are never
   touched. A DAC without one, or that ignores it, keeps its own volume.
 - **No stutters, no skipped songs.** The audio gets a CPU core of its own, away
-  from the rest of the system. Pausing or replugging the DAC never counts as
-  the end of a song.
+  from the rest of the system, and the built-in output is kept clear of a
+  driver fault that skipped half a second. Pausing or replugging the DAC never
+  counts as the end of a song.
 - **Screen off, music on.** Turn the screen off and the CPU drops to its
   lowest-power setting while the music keeps playing.
 
@@ -50,8 +53,8 @@ build.
 
 | Your firmware | File |
 |---|---|
-| spruceOS | `Truepod-0.1.1-spruceOS.zip` |
-| stock TrimUI | `Truepod-0.1.1-stockOS.zip` |
+| spruceOS | `Truepod-0.2.0-spruceOS.zip` |
+| stock TrimUI | `Truepod-0.2.0-stockOS.zip` |
 
 Same player in both. They differ only in which directory the firmware looks in.
 

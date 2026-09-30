@@ -13,6 +13,11 @@ Sau mỗi phiên, khi bạn đã thoát ứng dụng, nó tải lên **file log 
 — đúng cái `truepod.log` nằm trong thư mục app trên thẻ của bạn. Bạn mở ra đọc
 được bất cứ lúc nào để biết chính xác trong đó có gì.
 
+Nếu lúc thoát không có mạng, log sẽ chờ trên thẻ của bạn, trong
+`Saves/truepod/outbox`, và được gửi vào lần tới bạn mở hoặc thoát Truepod khi có
+Wi-Fi. Gửi xong
+thì nó bị xoá khỏi đó. Tối đa 20 log mới nhất được giữ lại chờ gửi.
+
 Log chứa:
 
 - Bạn đang dùng máy nào, firmware nào, và bản Truepod nào
@@ -31,8 +36,6 @@ cứ thứ gì về bạn hay phần cứng của bạn.
 - Nhạc của bạn, hay bất kỳ phần nào của nó. Không âm thanh, không ảnh bìa.
 - Bất kỳ thông tin đăng nhập, token, mã ghép nối hay chi tiết tài khoản nào.
 - Vị trí, danh bạ, hay bất cứ thứ gì khác trên máy.
-- Không gửi gì trong lúc bạn đang dùng — việc tải lên chỉ xảy ra sau khi bạn
-  thoát ứng dụng.
 
 ## Tắt phần nhạy cảm
 

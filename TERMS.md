@@ -14,6 +14,11 @@ After each session, once you have quit the player, it uploads **its own log
 file** — the same `truepod.log` sitting in the app's folder on your card. You
 can open it and read exactly what is in it at any time.
 
+If there is no network when you quit, the log waits on your card, in
+`Saves/truepod/outbox`, and is sent the next time you open or quit Truepod with
+Wi-Fi on. It is
+deleted from there once it has been received. At most the 20 newest wait.
+
 The log contains:
 
 - Which device and firmware you are on, and which build of Truepod
@@ -32,8 +37,6 @@ from anything about you or your hardware.
 - Your music, or any part of it. Not the audio, not the cover art.
 - Any credential, token, pairing code or account detail.
 - Your location, contacts, or anything else on the device.
-- Anything at all while you are using the player — the upload happens after
-  you quit, and only then.
 
 ## Turning off the sensitive part
 

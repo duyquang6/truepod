@@ -3,6 +3,27 @@
 Released builds, newest first. The full announcement for each release is in the
 GitHub release itself; this is the short record.
 
+## 0.2.0 — 2026-09-30
+
+Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
+
+**Fixed**
+- Music skipped half a second now and then on the speaker and the jack: the
+  codec's DMA driver moved ALSA's pointer a whole buffer. The built-in output
+  now plays through the firmware's dmix; a USB DAC is still opened raw
+- Starting the player turned a USB DAC's volume up to full
+- Booting with a DAC plugged in left the player reading the DAC instead of the
+  buttons
+- B and START on Options did not return to Now Playing
+- A session that crashed never sent its log
+
+**Added**
+- Rumble on the beat, off by default, with its own Options row
+- Logs that cannot be sent wait on the card and go on a later exit with Wi-Fi
+
+**Changed**
+- The built-in output is shown as "Built-in" rather than `audiocodec`
+
 ## 0.1.1 — 2026-09-29
 
 Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
