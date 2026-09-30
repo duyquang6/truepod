@@ -8,16 +8,13 @@ GitHub release itself; this is the short record.
 Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
 
 **Fixed**
-- Music skipped half a second now and then on the speaker and the jack: the
-  codec's DMA driver moved ALSA's pointer a whole buffer. The built-in output
-  now plays through the firmware's dmix; a USB DAC is still opened raw
+- Music skipped now and then on the speaker and the jack
 - Starting the player turned a USB DAC's volume up to full
 - Booting with a DAC plugged in left the player reading the DAC instead of the
   buttons
 - B and START on Options did not return to Now Playing
 - A session that crashed never sent its log
-- Stock firmware never sent a log: its CA list cannot verify the log server,
-  so the app now carries its own (`cacert.pem`)
+- Stock firmware never sent a log
 
 **Added**
 - Rumble on the beat, off by default, with its own Options row

@@ -6,11 +6,7 @@ A bit-perfect music player for the TrimUI Brick Pro.
 
 ## New in 0.2.0
 
-- **No more skips on the speaker and the 3.5 mm jack.** Music now and then
-  lost half a second on the built-in output, never on a USB DAC. The cause was
-  found in the audio driver underneath, not in the player, and the built-in
-  output now goes the way the firmware's own apps send it. A USB DAC is still
-  fed directly, untouched.
+- **No more skips on the speaker and the 3.5 mm jack.**
 - **Rumble on the beat.** The motor can knock along with the music. Off by
   default; switch it on under Options.
 - **The DAC keeps its volume.** Starting the player no longer turns a USB DAC
@@ -18,8 +14,7 @@ A bit-perfect music player for the TrimUI Brick Pro.
 - **Booting with a DAC plugged in no longer loses the buttons.**
 - **B and START on Options go back to Now Playing.**
 - **The built-in output is called "Built-in"**, not `audiocodec`.
-- **Logs are sent from stock firmware too.** Stock's certificates were too old
-  to reach the log server, so no stock install had ever sent one.
+- **Logs are sent from stock firmware too.**
 - **Logs made offline are kept and sent later**, the next time you open or quit
   Truepod with Wi-Fi on, and a session that crashed now sends its log too.
 
@@ -42,9 +37,8 @@ Truepod fixes all of that:
   the volume keys set it inside the DAC, so the samples themselves are never
   touched. A DAC without one, or that ignores it, keeps its own volume.
 - **No stutters, no skipped songs.** The audio gets a CPU core of its own, away
-  from the rest of the system, and the built-in output is kept clear of a
-  driver fault that skipped half a second. Pausing or replugging the DAC never
-  counts as the end of a song.
+  from the rest of the system. Pausing or replugging the DAC never counts as
+  the end of a song.
 - **Screen off, music on.** Turn the screen off and the CPU drops to its
   lowest-power setting while the music keeps playing.
 
