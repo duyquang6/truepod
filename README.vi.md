@@ -73,7 +73,7 @@ Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tí
 | Hi-res: 24-bit và sample rate cao, đã test tới 88.2 kHz | ✅ | ✅ |
 | Bit-perfect qua USB DAC cổng trên | ✅ | ✅ |
 | FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
-| Nhãn BIT-PERFECT / CONVERTED đọc từ sound card | ✅ | ✅ |
+| Nhãn BIT-PERFECT / CONVERTED | ✅ | ✅ |
 | Duyệt theo thư mục, hiện rate và bit depth thật, cover art, xoá bài | ✅ | ✅ |
 | Shuffle, repeat all / one / off | ✅ | ✅ |
 | Upload qua Wi-Fi bằng QR code | ✅ | ✅ |
@@ -94,8 +94,7 @@ Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tí
 ## Báo lỗi
 
 [Mở issue trên GitHub](https://github.com/duyquang6/truepod/issues/new?template=bug_report.yml), ghi firmware, phiên bản, và đính kèm `truepod.log` trong thư mục app
-trên thẻ. Mấy dòng đầu của nó nói firmware của bạn có sẵn những gì, thường chỉ
-cần vậy là đủ giải thích vì sao hai máy chạy khác nhau.
+trên thẻ.
 
 ---
 

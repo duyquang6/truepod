@@ -76,7 +76,7 @@ Free is frozen at what it has now: bug fixes, not new features.
 | Hi-res: 24-bit and high sample rates, tested to 88.2 kHz | ✅ | ✅ |
 | Bit-perfect through a USB DAC on the top port | ✅ | ✅ |
 | FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC | ✅ | ✅ |
-| BIT-PERFECT / CONVERTED read from the sound card | ✅ | ✅ |
+| BIT-PERFECT / CONVERTED badge | ✅ | ✅ |
 | Folder browsing with each track's real rate and bit depth, cover art, delete | ✅ | ✅ |
 | Shuffle, repeat all / one / off | ✅ | ✅ |
 | Wi-Fi upload from a QR code | ✅ | ✅ |
@@ -97,8 +97,7 @@ Free is frozen at what it has now: bug fixes, not new features.
 ## Reporting a problem
 
 [Open an issue on GitHub](https://github.com/duyquang6/truepod/issues/new?template=bug_report.yml) with your firmware, the version, and `truepod.log` from the app
-folder on the card. Its first lines say what your firmware provides, which
-usually explains a difference between two devices straight away.
+folder on the card.
 
 ---
 

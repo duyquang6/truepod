@@ -10,16 +10,11 @@ Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
 **Fixed**
 - Music skipped now and then on the speaker and the jack
 - Starting the player turned a USB DAC's volume up to full
-- Booting with a DAC plugged in left the player reading the DAC instead of the
-  buttons
+- Booting with a DAC plugged in left the buttons unresponsive
 - B and START on Options did not return to Now Playing
-- A session that crashed never sent its log
-- Stock firmware never sent a log
 
 **Added**
 - Rumble on the beat, off by default, with its own Options row
-- Logs that cannot be sent wait on the card and go the next time the player
-  opens or quits with Wi-Fi
 
 **Changed**
 - The built-in output is shown as "Built-in" rather than `audiocodec`
@@ -38,8 +33,6 @@ Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
 - SELECT (options) and MENU (exit) hints on Now Playing
 - The Options screen says when a DAC has no hardware volume
 - Each zip carries `App/` or `Apps/`, so installing is unzipping onto the card
-- The log names every card, what a USB DAC offers, and which volume control it
-  got
 
 **Changed**
 - "Beta" is gone from the terms screen
@@ -52,7 +45,6 @@ Full notes: **[RELEASE.md](RELEASE.md)**.
 **Added**
 - Bit-perfect playback through a USB DAC on the top port, at the file's own rate
   and bit depth (verified to 88.2 kHz / 24-bit)
-- The fidelity badge is now accurate
 - FLAC, MP3, WAV, OGG, Opus, M4A / AAC / ALAC; shuffle and repeat all / one / off
 - Folder browser showing each track's real rate and bit depth before playing,
   with embedded cover art, delete-with-confirmation, and last-folder memory
