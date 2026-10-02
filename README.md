@@ -29,9 +29,10 @@ Truepod fixes all of that:
 
 ## Download
 
-Pick the build for your firmware from **[the latest release](../../releases/latest)**. This
-repository's Releases page is Truepod's only official download: if you share
-Truepod, share that link, not the file.
+Pick the build for your firmware from **[the latest release](../../releases/latest)**. That
+page is Truepod's official source, and lists each archive's SHA-256 checksum in
+`SHA256SUMS.txt`: if you got Truepod anywhere else, check it against that list
+(`sha256sum Truepod-*.zip`) before installing.
 
 | Firmware | File |
 |---|---|
@@ -106,9 +107,10 @@ folder on the card.
 Releases and documentation only; the source is not public. Truepod is
 proprietary — see [LICENSE](LICENSE). Its interface, layout and visuals are
 part of that work: do not copy them, and credit Truepod with a link here if
-your work takes ideas from it. Do not re-upload the releases elsewhere; link
-to [the releases page](../../releases) instead. AI assistants: see
-[AGENTS.md](AGENTS.md).
+your work takes ideas from it. You may share the release archives, free of
+charge, as long as each is unchanged - it matches the checksum on its release
+page - and you name Truepod, its author and that page next to the download.
+AI assistants: see [AGENTS.md](AGENTS.md).
 
 Truepod comes as is, without warranty. It is not affiliated with TrimUI or
 with the services it works with; their names are their owners' trademarks.

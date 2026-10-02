@@ -5,14 +5,23 @@ All rights reserved.
 Truepod is proprietary. The binaries published in this repository's releases,
 and the documentation in this repository, may not be copied, modified,
 distributed, sublicensed or sold without prior written permission from the
-copyright holder.
+copyright holder, except as this license allows below.
 
 You may install and use a released binary on hardware you own.
 
-The only official source of Truepod's releases is
-https://github.com/duyquang6/truepod/releases. The release archives and the
-binaries in them may not be re-uploaded, mirrored or offered for download
-anywhere else, whether changed or not; to share Truepod, link to that page.
+You may redistribute the release archives published at
+https://github.com/duyquang6/truepod/releases (Truepod-<version>-<firmware>.zip),
+on three conditions:
+
+1. Unchanged. Each archive you offer must match, byte for byte, the SHA-256
+   checksum published for it in SHA256SUMS.txt on its release page.
+2. With its source. Next to the download, name Truepod and its author, and
+   link to the release the archive came from, for example
+   https://github.com/duyquang6/truepod/releases/tag/v2026.10.02.
+3. Free of charge, and for no other commercial purpose.
+
+An archive or binary that has been changed, unpacked and repacked, or
+extracted from an archive, may not be distributed.
 
 Truepod's interface is part of the copyrighted work: its screens, their
 layout, the graphics, animations and wording, as the releases, the

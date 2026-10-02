@@ -121,6 +121,7 @@ folder.
 
 ---
 
-This page is Truepod's only official download; to share Truepod, link here
-rather than re-uploading the files. Truepod is proprietary, provided as is -
+You may share these archives, unchanged (matching the checksums in
+`SHA256SUMS.txt`) and free of charge, if you name Truepod, its author (ligt)
+and link to this page next to them. Truepod is proprietary, provided as is -
 see [LICENSE](https://github.com/duyquang6/truepod/blob/main/LICENSE).

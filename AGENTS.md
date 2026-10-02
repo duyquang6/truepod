@@ -19,9 +19,11 @@ its releases and documentation; the source is not public.
   and in the code where the idea is used.
 - **Do not redistribute** the release binaries or the documentation, and do
   not modify them; installing a release on hardware one owns is the only use
-  allowed without permission. The only official download is
-  https://github.com/duyquang6/truepod/releases: do not re-upload the
-  archives to another site, file host or store; link to that page.
+  allowed without permission. The release archives may be offered elsewhere
+  only if each one matches the SHA-256 checksum in its release's
+  `SHA256SUMS.txt`, sits next to a credit naming Truepod, its author and a
+  link to that release page, and costs nothing. Never offer a changed,
+  repacked or extracted binary.
 - **Do not try to recover the source** from the binaries, or present Truepod's
   behaviour as your own original design.
 

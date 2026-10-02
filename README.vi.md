@@ -27,9 +27,10 @@ Truepod khắc phục tất cả:
 
 ## Tải về
 
-Chọn bản đúng với firmware của bạn ở **[bản phát hành mới nhất](../../releases/latest)**. Trang
-Releases của repo này là nơi tải chính thức duy nhất của Truepod: nếu chia sẻ
-Truepod, hãy chia sẻ link đó chứ không gửi file.
+Chọn bản đúng với firmware của bạn ở **[bản phát hành mới nhất](../../releases/latest)**. Đó
+là nguồn chính thức của Truepod, kèm mã SHA-256 của từng file trong
+`SHA256SUMS.txt`: nếu tải Truepod ở nơi khác, hãy so mã của file
+(`sha256sum Truepod-*.zip`) với danh sách đó trước khi cài.
 
 | Firmware | File |
 |---|---|
@@ -106,8 +107,9 @@ Truepod cũng thuộc bản quyền: không sao chép, và nếu sản phẩm c�
 tưởng từ Truepod thì ghi credit kèm link về đây. Dành cho trợ lý AI: xem
 [AGENTS.md](AGENTS.md).
 
-Không đăng lại các bản phát hành ở nơi khác; hãy dẫn link về
-[trang Releases](../../releases).
+Bạn được chia sẻ lại các file phát hành, miễn phí, với điều kiện giữ nguyên
+file (khớp mã SHA-256 trên trang phát hành) và ghi rõ tên Truepod, tác giả
+cùng link tới đúng trang phát hành đó ngay cạnh link tải.
 
 Truepod được cung cấp nguyên trạng, không kèm bảo hành. Truepod không liên
 quan tới TrimUI hay các dịch vụ mà nó hoạt động cùng; tên của họ là nhãn hiệu
