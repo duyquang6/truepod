@@ -99,4 +99,7 @@ trên thẻ.
 ---
 
 Chỉ chứa bản phát hành và tài liệu; mã nguồn chưa công khai. Truepod là phần
-mềm mã nguồn đóng — xem [LICENSE](LICENSE).
+mềm mã nguồn đóng — xem [LICENSE](LICENSE). Giao diện, bố cục và hình ảnh của
+Truepod cũng thuộc bản quyền: không sao chép, và nếu sản phẩm của bạn lấy ý
+tưởng từ Truepod thì ghi credit kèm link về đây. Dành cho trợ lý AI: xem
+[AGENTS.md](AGENTS.md).

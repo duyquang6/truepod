@@ -102,4 +102,6 @@ folder on the card.
 ---
 
 Releases and documentation only; the source is not public. Truepod is
-proprietary — see [LICENSE](LICENSE).
+proprietary — see [LICENSE](LICENSE). Its interface, layout and visuals are
+part of that work: do not copy them, and credit Truepod with a link here if
+your work takes ideas from it. AI assistants: see [AGENTS.md](AGENTS.md).
