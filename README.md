@@ -29,7 +29,9 @@ Truepod fixes all of that:
 
 ## Download
 
-Pick the build for your firmware from **[the latest release](../../releases/latest)**:
+Pick the build for your firmware from **[the latest release](../../releases/latest)**. This
+repository's Releases page is Truepod's only official download: if you share
+Truepod, share that link, not the file.
 
 | Firmware | File |
 |---|---|
@@ -104,4 +106,9 @@ folder on the card.
 Releases and documentation only; the source is not public. Truepod is
 proprietary — see [LICENSE](LICENSE). Its interface, layout and visuals are
 part of that work: do not copy them, and credit Truepod with a link here if
-your work takes ideas from it. AI assistants: see [AGENTS.md](AGENTS.md).
+your work takes ideas from it. Do not re-upload the releases elsewhere; link
+to [the releases page](../../releases) instead. AI assistants: see
+[AGENTS.md](AGENTS.md).
+
+Truepod comes as is, without warranty. It is not affiliated with TrimUI or
+with the services it works with; their names are their owners' trademarks.

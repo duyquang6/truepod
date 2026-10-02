@@ -1,4 +1,4 @@
-Copyright (c) 2026 Truepod authors.
+Copyright (c) 2026 ligt, the author of Truepod (https://github.com/duyquang6/truepod).
 
 All rights reserved.
 
@@ -9,12 +9,25 @@ copyright holder.
 
 You may install and use a released binary on hardware you own.
 
+The only official source of Truepod's releases is
+https://github.com/duyquang6/truepod/releases. The release archives and the
+binaries in them may not be re-uploaded, mirrored or offered for download
+anywhere else, whether changed or not; to share Truepod, link to that page.
+
 Truepod's interface is part of the copyrighted work: its screens, their
 layout, the graphics, animations and wording, as the releases, the
 screenshots and the recordings in this repository show them. Reproducing
 them, or a close imitation of them, in another product needs the same prior
 written permission. Work that takes ideas or inspiration from Truepod must
 credit it by name, with a link to https://github.com/duyquang6/truepod.
+
+Truepod comes as is, without warranty of any kind, express or implied. As
+far as the law allows, its authors are not liable for any damage arising
+from its use, or from being unable to use it.
+
+Truepod is not affiliated with, endorsed by or sponsored by TrimUI or the
+makers of the services and devices it works with; their names are their
+owners' trademarks, used only to say what Truepod works with.
 
 This restriction does not alter the rights granted by the licenses of
 third-party components linked into the binary. Those components and their

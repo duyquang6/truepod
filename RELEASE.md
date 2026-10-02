@@ -1,19 +1,18 @@
-# Truepod 0.2.0
+# Truepod 2026.10.02
 
 *Tiếng Việt: [hướng dẫn cài đặt và tính năng](https://github.com/duyquang6/truepod/blob/main/README.vi.md)*
 
 A bit-perfect music player for the TrimUI Brick Pro.
 
-## New in 0.2.0
+## New in 2026.10.02
 
-- **No more skips on the speaker and the 3.5 mm jack.**
-- **Rumble on the beat.** The motor can knock along with the music. Off by
-  default; switch it on under Options.
-- **The DAC keeps its volume.** Starting the player no longer turns a USB DAC
-  up to full.
-- **Booting with a DAC plugged in no longer loses the buttons.**
-- **B and START on Options go back to Now Playing.**
-- **The built-in output is called "Built-in"**, not `audiocodec`.
+- **Logs reach us from stock firmware too.** On stock TrimUI firmware the
+  session log could not be sent; now it is, like on spruceOS.
+- **A log waiting for Wi-Fi goes out sooner**: when you next open Truepod, as
+  well as when you quit it.
+- **Options shows the version and who made Truepod**, at the foot of the
+  list.
+- Releases are now named by date.
 
 <p align="center">
   <img src="https://github.com/duyquang6/truepod/raw/main/media/now-playing.gif" width="300" alt="Now Playing, with the spectrum and the LEDs">
@@ -45,8 +44,8 @@ build.
 
 | Your firmware | File |
 |---|---|
-| spruceOS | `Truepod-0.2.0-spruceOS.zip` |
-| stock TrimUI | `Truepod-0.2.0-stockOS.zip` |
+| spruceOS | `Truepod-2026.10.02-spruceOS.zip` |
+| stock TrimUI | `Truepod-2026.10.02-stockOS.zip` |
 
 Same player in both. They differ only in which directory the firmware looks in.
 
@@ -119,3 +118,9 @@ same track plays bit-perfect.
 
 [Open an issue on GitHub](https://github.com/duyquang6/truepod/issues/new?template=bug_report.yml) with your firmware, this version, and `truepod.log` from the app
 folder.
+
+---
+
+This page is Truepod's only official download; to share Truepod, link here
+rather than re-uploading the files. Truepod is proprietary, provided as is -
+see [LICENSE](https://github.com/duyquang6/truepod/blob/main/LICENSE).
