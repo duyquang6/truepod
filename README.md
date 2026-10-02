@@ -97,6 +97,15 @@ Free is frozen at what it has now: bug fixes, not new features.
 | Sleep timer | ❌ | ✅ |
 | Vietnamese interface | ❌ | ✅ |
 
+## Copying, AI and "vibe code"
+
+Some say that anything an AI can rebuild is anyone's to take. Not Truepod.
+Its interface, its layout and its behaviour are its author's work, and
+feeding the screenshots to an AI and shipping what comes out is copying, not
+an original design. Taking ideas from Truepod is fine - credit it by name,
+with a link to this page, in your README or credits. Taking its look without
+credit, or passing it off as your own, is not.
+
 ## Reporting a problem
 
 [Open an issue on GitHub](https://github.com/duyquang6/truepod/issues/new?template=bug_report.yml) with your firmware, the version, and `truepod.log` from the app

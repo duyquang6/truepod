@@ -94,6 +94,15 @@ Free giữ nguyên tập tính năng hiện tại: sửa lỗi, không thêm tí
 | Hẹn giờ tắt | ❌ | ✅ |
 | Giao diện tiếng Việt | ❌ | ✅ |
 
+## Sao chép, AI và "vibe code"
+
+Có người cho rằng thứ gì AI dựng lại được thì ai cũng được lấy. Với Truepod
+thì không. Giao diện, bố cục và cách hoạt động của Truepod là công sức của
+tác giả; đưa ảnh chụp màn hình cho AI rồi phát hành thứ nó làm ra là sao chép,
+không phải thiết kế của bạn. Lấy ý tưởng từ Truepod thì được - nhưng ghi
+credit tên Truepod kèm link về trang này trong README hoặc phần credit. Lấy
+giao diện mà không ghi nguồn, hay nhận là của mình, thì không.
+
 ## Báo lỗi
 
 [Mở issue trên GitHub](https://github.com/duyquang6/truepod/issues/new?template=bug_report.yml), ghi firmware, phiên bản, và đính kèm `truepod.log` trong thư mục app
