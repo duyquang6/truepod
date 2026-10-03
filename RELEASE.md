@@ -1,18 +1,13 @@
-# Truepod 2026.10.02
+# Truepod 2026.10.03
 
 *Tiếng Việt: [hướng dẫn cài đặt và tính năng](https://github.com/duyquang6/truepod/blob/main/README.vi.md)*
 
 A bit-perfect music player for the TrimUI Brick Pro.
 
-## New in 2026.10.02
+## New in 2026.10.03
 
-- **Logs reach us from stock firmware too.** On stock TrimUI firmware the
-  session log could not be sent; now it is, like on spruceOS.
-- **A log waiting for Wi-Fi goes out sooner**: when you next open Truepod, as
-  well as when you quit it.
-- **Options shows the version and who made Truepod**, at the foot of the
-  list.
-- Releases are now named by date.
+- **The version and who made Truepod are always in view**, beside the Options
+  title, rather than at the foot of the list.
 
 <p align="center">
   <img src="https://github.com/duyquang6/truepod/raw/main/media/now-playing.gif" width="300" alt="Now Playing, with the spectrum and the LEDs">
@@ -44,8 +39,8 @@ build.
 
 | Your firmware | File |
 |---|---|
-| spruceOS | `Truepod-2026.10.02-spruceOS.zip` |
-| stock TrimUI | `Truepod-2026.10.02-stockOS.zip` |
+| spruceOS | `Truepod-2026.10.03-spruceOS.zip` |
+| stock TrimUI | `Truepod-2026.10.03-stockOS.zip` |
 
 Same player in both. They differ only in which directory the firmware looks in.
 

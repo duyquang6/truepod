@@ -3,6 +3,21 @@
 Released builds, newest first. The full announcement for each release is in the
 GitHub release itself; this is the short record.
 
+## 2026.10.03 — 2026-10-03
+
+Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
+
+**Changed**
+- The version and author sit beside the Options title, always in view
+
+## 2026.10.02 — 2026-10-02
+
+Free edition.
+
+**Changed**
+- Options shows the version and who made Truepod
+- Releases are named by date
+
 ## 0.2.0 — 2026-09-30
 
 Free edition. Full notes: **[RELEASE.md](RELEASE.md)**.
